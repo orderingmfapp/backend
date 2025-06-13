@@ -4,7 +4,47 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="192527e2-1c1f-40c5-be89-9b026ee86d9e" name="Changes" comment="" />
+    <list default="true" id="192527e2-1c1f-40c5-be89-9b026ee86d9e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/OrderingAppBackend/Repositories/IMenuOptionsRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrderingAppBackend/Repositories/MenuOptionsRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrderingAppBackend/Services/IOrderService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrderingAppMFBackend/.idea/.idea.OrderingAppMFBackend/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrderingAppMFBackend/.idea/.idea.OrderingAppMFBackend/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrderingAppMFBackend/.idea/.idea.OrderingAppMFBackend/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrderingAppMFBackend/OrderingAppMFBackend/Services/IOrderServices.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.backend.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.backend.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderingApp-Backend/.idea/.idea.OrderingApp-Backend/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/OrderingAppBackend/.idea/.idea.OrderingApp-Backend/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderingApp-Backend/.idea/.idea.OrderingApp-Backend/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/OrderingAppBackend/.idea/.idea.OrderingApp-Backend/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderingApp-Backend/.idea/.idea.OrderingApp-Backend/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/OrderingAppBackend/.idea/.idea.OrderingApp-Backend/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderingApp-Backend/.idea/.idea.OrderingApp-Backend/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/OrderingAppBackend/.idea/.idea.OrderingApp-Backend/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderingApp-Backend/OrderingApp-Backend.sln" beforeDir="false" afterPath="$PROJECT_DIR$/OrderingAppBackend/OrderingAppBackend.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderingApp-Backend/OrderingApp-Backend/Context/InzynierkaTestContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OrderingAppBackend/Context/InzynierkaTestContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderingApp-Backend/OrderingApp-Backend/Controllers/OrderController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OrderingAppBackend/Controllers/OrderController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderingApp-Backend/OrderingApp-Backend/DTOs/GetOrderDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OrderingAppBackend/DTOs/GetOrderDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderingApp-Backend/OrderingApp-Backend/Models/ItemsOption.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OrderingAppBackend/Models/ItemsOption.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderingApp-Backend/OrderingApp-Backend/Models/MenuAvailableOption.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OrderingAppBackend/Models/MenuAvailableOption.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderingApp-Backend/OrderingApp-Backend/Models/MenuItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OrderingAppBackend/Models/MenuItem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderingApp-Backend/OrderingApp-Backend/Models/MenuItemsCategory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OrderingAppBackend/Models/MenuItemsCategory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderingApp-Backend/OrderingApp-Backend/Models/MenuItemsImage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OrderingAppBackend/Models/MenuItemsImage.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderingApp-Backend/OrderingApp-Backend/Models/MenuOption.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OrderingAppBackend/Models/MenuOption.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderingApp-Backend/OrderingApp-Backend/Models/MenuOptionsImage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OrderingAppBackend/Models/MenuOptionsImage.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderingApp-Backend/OrderingApp-Backend/Models/Order.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OrderingAppBackend/Models/Order.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderingApp-Backend/OrderingApp-Backend/Models/OrderItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OrderingAppBackend/Models/OrderItem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderingApp-Backend/OrderingApp-Backend/Models/Promotion.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OrderingAppBackend/Models/Promotion.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderingApp-Backend/OrderingApp-Backend/Models/Role.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OrderingAppBackend/Models/Role.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderingApp-Backend/OrderingApp-Backend/Models/Session.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OrderingAppBackend/Models/Session.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderingApp-Backend/OrderingApp-Backend/Models/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OrderingAppBackend/Models/User.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderingApp-Backend/OrderingApp-Backend/OrderingApp-Backend.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/OrderingAppBackend/OrderingAppBackend.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderingApp-Backend/OrderingApp-Backend/OrderingApp-Backend.http" beforeDir="false" afterPath="$PROJECT_DIR$/OrderingAppBackend/OrderingAppBackend.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderingApp-Backend/OrderingApp-Backend/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OrderingAppBackend/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderingApp-Backend/OrderingApp-Backend/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/OrderingAppBackend/Properties/launchSettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderingApp-Backend/OrderingApp-Backend/Repositories/IOrderRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OrderingAppBackend/Repositories/IOrderRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderingApp-Backend/OrderingApp-Backend/Repositories/OrderRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OrderingAppBackend/Repositories/OrderRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderingApp-Backend/OrderingApp-Backend/Services/IOrderService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderingApp-Backend/OrderingApp-Backend/Services/OrderService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OrderingAppBackend/Services/OrderService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderingApp-Backend/OrderingApp-Backend/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/OrderingAppBackend/appsettings.Development.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderingApp-Backend/OrderingApp-Backend/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/OrderingAppBackend/appsettings.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,12 +53,37 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/OrderingAppBackend/Context/InzynierkaTestContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OrderingAppBackend/Controllers/OrderController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OrderingAppBackend/DTOs/GetOrderDto.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OrderingAppBackend/Models/ItemsOption.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OrderingAppBackend/Models/MenuAvailableOption.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OrderingAppBackend/Models/MenuItem.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OrderingAppBackend/Models/MenuItemsCategory.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OrderingAppBackend/Models/MenuItemsImage.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OrderingAppBackend/Models/MenuOption.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OrderingAppBackend/Models/MenuOptionsImage.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OrderingAppBackend/Models/Order.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OrderingAppBackend/Models/OrderItem.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OrderingAppBackend/Models/Promotion.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OrderingAppBackend/Models/Role.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OrderingAppBackend/Models/Session.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OrderingAppBackend/Models/User.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OrderingAppBackend/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OrderingAppBackend/Repositories/IMenuOptionsRepository.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OrderingAppBackend/Repositories/IOrderRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OrderingAppBackend/Repositories/MenuOptionsRepository.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OrderingAppBackend/Repositories/OrderRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OrderingAppBackend/Services/IOrderService.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OrderingAppBackend/Services/OrderService.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2ySgry4xumBQe90u9lVVmj0yrwt" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -28,12 +93,13 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "feature/menuoptions",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editor.preferences.completion",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -53,6 +119,8 @@
       <option name="presentableId" value="Default" />
       <updated>1749833590825</updated>
       <workItem from="1749833592064" duration="366000" />
+      <workItem from="1749833981957" duration="3447000" />
+      <workItem from="1749850046863" duration="2686000" />
     </task>
     <servers />
   </component>
