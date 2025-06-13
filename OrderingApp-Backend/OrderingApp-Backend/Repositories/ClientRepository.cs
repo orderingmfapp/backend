@@ -6,4 +6,6 @@ public class ClientRepository
     
     
     // kolejny komentarz
+    
+    // jeszcze nowszy kom na devie
 }
