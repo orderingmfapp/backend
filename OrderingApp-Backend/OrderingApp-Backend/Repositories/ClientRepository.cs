@@ -8,4 +8,6 @@ public class ClientRepository
     // kolejny komentarz
     
     // jeszcze nowszy kom na devie
+    
+    //komentarz do test2
 }
