@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 
 namespace OrderingAppMFBackend.Models;
@@ -12,4 +13,5 @@ public partial class MenuOption
     public string Description { get; set; } = null!;
 
     public decimal Price { get; set; }
+    public ICollection<MenuOptionsImage> Images { get; set; } = new List<MenuOptionsImage>();
 }

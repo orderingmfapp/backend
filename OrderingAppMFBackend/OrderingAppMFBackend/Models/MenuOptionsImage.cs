@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Text.Json.Serialization;
 
 namespace OrderingAppMFBackend.Models;
 
@@ -11,5 +12,7 @@ public partial class MenuOptionsImage
 
     public string Description { get; set; } = null!;
 
-    public int MenuOptionsId { get; set; }
+    public int MenuOptionId { get; set; }
+    [JsonIgnore]
+    public MenuOption MenuOption { get; set; }
 }

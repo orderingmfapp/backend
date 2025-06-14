@@ -186,7 +186,7 @@ public partial class OrderingAppContext : DbContext
                 .HasMaxLength(255)
                 .IsUnicode(false)
                 .HasColumnName("image_url");
-            entity.Property(e => e.MenuOptionsId).HasColumnName("menu_options_id");
+            entity.Property(e => e.MenuOptionId).HasColumnName("menu_options_id");
         });
 
         modelBuilder.Entity<Order>(entity =>
