@@ -1,0 +1,3 @@
+problemy:
+
+w koncowce dodawania w dto mamy ze menuOption potrzebuje listy zdjec i to generuje problem w react. narazie to zmienilem z chatem w samym reactcie ale imo do poprawy.
