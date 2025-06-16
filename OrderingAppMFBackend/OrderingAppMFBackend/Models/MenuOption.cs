@@ -14,4 +14,6 @@ public partial class MenuOption
 
     public decimal Price { get; set; }
     public ICollection<MenuOptionsImage> Images { get; set; } = new List<MenuOptionsImage>();
+
+    public virtual ICollection<ItemsOption> ItemsOptions { get; set; } = new List<ItemsOption>();
 }

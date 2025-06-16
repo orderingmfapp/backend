@@ -33,4 +33,9 @@ public class MenuOptionsService : IMenuOptionsService
     {
         return await _menuOptionsRepository.DeleteMenuOptionsAsync(id);
     }
+
+    public async Task<List<MenuItemForMenuOptionDto>> GetMenuItemsForMenuOptionAsync(int menuOptionId)
+    {
+        return await _menuOptionsRepository.GetMenuItemsForMenuOptionAsync(menuOptionId);
+    }
 }

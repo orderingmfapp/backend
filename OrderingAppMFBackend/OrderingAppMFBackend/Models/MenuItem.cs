@@ -24,4 +24,7 @@ public partial class MenuItem
     public bool OnStock { get; set; }
 
     public int MenuItemsCategoriesId { get; set; }
+    
+    public virtual ICollection<ItemsOption> ItemsOptions { get; set; } = new List<ItemsOption>();
+
 }

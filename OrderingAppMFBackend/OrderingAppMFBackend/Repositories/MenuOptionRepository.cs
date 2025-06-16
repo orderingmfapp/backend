@@ -97,4 +97,21 @@ public class MenuOptionsRepository : IMenuOptionsRepository
         await _context.SaveChangesAsync();
         return true;
     }
+
+    public async Task<List<MenuItemForMenuOptionDto>> GetMenuItemsForMenuOptionAsync(int menuOptionId)
+    {
+        return await _context.ItemsOptions
+            .Where(io => io.MenuOptionsId == menuOptionId)
+            .Join(
+                _context.MenuItems,
+                io => io.MenuItemsId,
+                mi => mi.Id,
+                (io, mi) => new MenuItemForMenuOptionDto
+                {
+                    NamePl = mi.NamePl,
+                    Price = mi.Price,
+                    OnStock = mi.OnStock
+                }
+            ).ToListAsync();
+    }
 }

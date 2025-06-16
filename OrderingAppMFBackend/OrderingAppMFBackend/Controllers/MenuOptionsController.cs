@@ -60,6 +60,16 @@ public class MenuOptionsController : ControllerBase
 
         return NoContent();
     }
+
+    [HttpGet("{id}/menu-items")]
+    public async Task<ActionResult<List<MenuItemForMenuOptionDto>>> GetMenuItemsForMenuOption(int id)
+    {
+        var items = await _menuOptionsService.GetMenuItemsForMenuOptionAsync(id);
+        if (items == null || !items.Any())
+            return NotFound();
+
+        return Ok(items);
+    }
     
 
 }

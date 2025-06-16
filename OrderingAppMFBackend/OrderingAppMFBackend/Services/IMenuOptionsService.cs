@@ -9,4 +9,5 @@ public interface IMenuOptionsService
     Task<MenuOption> AddMenuOptionAsync(AddMenuOptionDto menuOptionDto);
     public Task<bool> UpdateMenuOptionsAsync(int id, UpdateMenuOptionDto menuOptionDto);
     public Task<bool> DeleteMenuOptionsAsync(int id);
+    Task<List<MenuItemForMenuOptionDto>> GetMenuItemsForMenuOptionAsync(int menuOptionId);
 }
